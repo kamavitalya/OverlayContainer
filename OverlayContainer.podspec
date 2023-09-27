@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OverlayContainer'
-  s.version          = '3.5.2'
+  s.version          = '3.5.3-static'
   s.summary          = 'OverlayContainer is a UI library which makes it easier to develop overlay based interfaces.'
 
   s.swift_versions   = ["4.2", "5.0"]
@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
                        DESC
 
 
-  s.homepage         = 'https://github.com/applidium/ADOverlayContainer'
+  s.homepage         = 'https://github.com/kamavitalya/OverlayContainer.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gaetanzanella' => 'gaetan.zanella@fabernovel.com' }
-  s.source           = { :git => 'https://github.com/applidium/ADOverlayContainer.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kamavitalya/OverlayContainer.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
   s.source_files = 'Source/Classes/**/*'
